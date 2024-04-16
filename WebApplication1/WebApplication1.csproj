@@ -128,7 +128,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\abcdEntities.cs" />
     <Compile Include="Controllers\DocumentMetadatasController.cs" />
     <Compile Include="Controllers\DrugsDictionariesController.cs" />
     <Compile Include="Controllers\GeoCodesController.cs" />
