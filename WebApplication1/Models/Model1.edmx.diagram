@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7482d5ff5d3c4ffbaa0766b6eaffda77" Name="Diagram1">
+        <EntityTypeShape EntityType="abcdModel.DocumentMetadata" Width="1.5" PointX="7.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="abcdModel.DrugsDictionary" Width="1.5" PointX="5.875" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="abcdModel.GeoCode" Width="1.5" PointX="8.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="abcdModel.iCAREAdmin" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="abcdModel.iCAREUser" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="abcdModel.iCAREWorker" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="abcdModel.ModificationHistory" Width="1.5" PointX="12.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="abcdModel.PatientRecord" Width="1.5" PointX="10.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="abcdModel.TreatmentRecord" Width="1.5" PointX="15.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="abcdModel.UserPassword" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="abcdModel.UserRole" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="abcdModel.FK_DocumentMetadata_iCAREWorker" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_DocumentMetadata_PatientRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_DocumentMetadata_PatientRecord1" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_ModificationHistory_DocumentMetadata" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_PatientRecord_GeoCodes" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_iCAREAdmin_iCAREUser" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_iCAREWorker_iCAREAdmin" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_iCAREWorker_iCAREUser" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_UserPassword_iCareUser" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_iCAREWorker_UserRole" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_ModificationHistory_iCAREWorker" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_PatientRecord_iCAREWorker" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_TreatmentRecord_iCAREWorker" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_TreatmentRecord_PatientRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="abcdModel.FK_TreatmentRecord_PatientRecord1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
